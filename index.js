@@ -2,16 +2,19 @@ class App extends React.Component {
     render () {
         return (
         <div>
-            <Hello 
-            to="Jorge" 
-            from="Lena"
-            bangs={4}
-            img="https://media.tenor.com/images/dad77f1452951f4cf586395209598978/tenor.gif"
-                        />
-            <p>Let's play a game:)))</p>
-            <NumPicker />
+            <h1>Slot Machines!</h1>
+            <Machine 
+            s1 = "x"
+            s2 = "x"
+            s3 = "x"
+            />
+            <Machine 
+            s1 = "x"
+            s2 = "x"
+            s3 = "y"
+            />
         </div>
-        );
+        )
     }
 }
 
